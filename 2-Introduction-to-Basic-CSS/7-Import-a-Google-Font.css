@@ -1,4 +1,4 @@
-/* Font-family types that are uncommon can be uploaded by referencing a URL from a reference site such as Google Fonts. Once the font is uploaded, it can be applied to HTML elements. Font-family types that are more that one word and contain spaces need to be wrapped with quotations. GENERIC_NAME can follow the specified font-family as a generic fallback font should the preceeding font-family not function. */
+/* Font-family types that are uncommon can be uploaded by referencing a URL from a reference site such as Google Fonts. Once the font is uploaded, it can be applied to HTML elements. Font-family types that are more that one word and contain spaces need to be wrapped with quotations. GENERIC_NAME can follow the specified font-family as a generic fallback font should the preceding font-family not function. */
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
