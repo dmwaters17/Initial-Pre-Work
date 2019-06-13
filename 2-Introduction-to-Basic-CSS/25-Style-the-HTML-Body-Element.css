@@ -1,0 +1,7 @@
+/* We can see the 'body' element by assigning it a style property of background-color. */
+
+<style>
+body {
+  background-color: black;
+}
+</style>
