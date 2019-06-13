@@ -1,0 +1,14 @@
+/* Certain browsers only support certain CSS properties. Since browsers read top to bottom, by adding another fallback property before the variable, browsers that cannot read the variable will read the fallback. Browsers that can read the variable will read it last and apply the latter variable. */ 
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
