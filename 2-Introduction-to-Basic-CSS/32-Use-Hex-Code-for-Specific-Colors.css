@@ -1,0 +1,7 @@
+/* Hexadecimal code is another way to code colors in CSS. The hex code has 16 base numbers. 0-9 are represented as the numbers 0-9 while 10-16 are represented as A,B,C,D,E,F. Hex code uses the RGB color system. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
