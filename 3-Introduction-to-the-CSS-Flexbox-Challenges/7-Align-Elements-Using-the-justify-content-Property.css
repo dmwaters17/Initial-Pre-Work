@@ -1,0 +1,25 @@
+/* The direction of which flex items are arranged is called the main axis. For rows it is horizontal, left to right. For columns it is vertical from top to bottom. The property justify-content has several values to do this. center; center will center flex items. flex-start; will push flex items to the beginning of the main axis. flex-end; will push flex items to the end of the main axis. space-between; will evenly space out flex items with items at both the start and end. space-around; will evenly space out flex items without items being tied to the start and end. */
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
