@@ -1,4 +1,4 @@
-/* The align-self property allows you to adjust flex items individually and will override the values set by the flex container property align-text. align-self has the same values as align-items: flex-start, flex-end, center, stretch, and baseline. This unit demonstrated the properties involved with adjusting flex containers and flex items. This is necessary so that elements can be formatted in a dynamic nature thus improving the user interface. */
+/* The align-self property allows you to adjust flex items individually and will override the values set by the flex container property align-text. align-self has the same values as align-items: flex-start, flex-end, center, stretch, and baseline. This unit demonstrated the properties involved with adjusting flex containers and flex items. This is necessary so that elements can be formatted in a dynamic nature thus improving the user interface.  */
 
 <style>
   #box-container {
