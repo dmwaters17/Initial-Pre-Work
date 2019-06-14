@@ -1,4 +1,4 @@
-/* Media queries allow certain variables to be used under desired media conditions such as width. In this case, the --penguin-size of 200px will be applied up to the media query max value of 350px. This is central to responsive web design. */ 
+/* Media queries allow certain variables to be used under desired media conditions such as width. In this case, the --penguin-size of 200px will be applied up to the media query max value of 350px. This is central to responsive web design.  */
 
 <style>
   :root {
