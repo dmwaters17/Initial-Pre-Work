@@ -1,0 +1,36 @@
+/* The justify-self property will align an item within a cell using several values. The center value centers the item, the start value shifts an item to the left of the cell, the end value shifts an item to the right of the cell. */
+
+<style>
+  .item1{background: LightSkyBlue;}
+
+  .item2 {
+    background: LightSalmon;
+    /* add your code below this line */
+    justify-self: center;
+
+    /* add your code above this line */
+  }
+
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
