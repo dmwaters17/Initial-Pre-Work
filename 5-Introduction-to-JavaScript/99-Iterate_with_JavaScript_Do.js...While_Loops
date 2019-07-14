@@ -1,0 +1,11 @@
+// do...while loops execute like while loops except the do statement assures that the code is run at least once.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
